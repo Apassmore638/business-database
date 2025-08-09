@@ -15,3 +15,21 @@ c:\Users\Abe\Desktop\database site\DatabaseSite.Data\obj\Debug\net9.0\refint\Dat
 c:\Users\Abe\Desktop\database site\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.pdb
 c:\Users\Abe\Desktop\database site\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.genruntimeconfig.cache
 c:\Users\Abe\Desktop\database site\DatabaseSite.Data\obj\Debug\net9.0\ref\DatabaseSite.Data.dll
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\bin\Debug\net9.0\DatabaseSite.Data.deps.json
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\bin\Debug\net9.0\DatabaseSite.Data.runtimeconfig.json
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\bin\Debug\net9.0\DatabaseSite.Data.dll
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\bin\Debug\net9.0\DatabaseSite.Data.pdb
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\bin\Debug\net9.0\DatabaseSite.Models.dll
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\bin\Debug\net9.0\DatabaseSite.Models.pdb
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.csproj.AssemblyReference.cache
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.AssemblyInfoInputs.cache
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.AssemblyInfo.cs
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.csproj.CoreCompileInputs.cache
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.sourcelink.json
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\Database.2EACDE2A.Up2Date
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.dll
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\refint\DatabaseSite.Data.dll
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.pdb
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\DatabaseSite.Data.genruntimeconfig.cache
+c:\Users\Abe\Desktop\business-database\DatabaseSite.Data\obj\Debug\net9.0\ref\DatabaseSite.Data.dll

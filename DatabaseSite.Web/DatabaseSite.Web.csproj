@@ -2,10 +2,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DatabaseSite.Models\DatabaseSite.Models.csproj" />
+    <ProjectReference Include="..\DatabaseSite.Data\DatabaseSite.Data.csproj" />
+    <ProjectReference Include="..\DatabaseSite.Services\DatabaseSite.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Net.Http.Json" Version="9.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.8" />
   </ItemGroup>
 
   <PropertyGroup>

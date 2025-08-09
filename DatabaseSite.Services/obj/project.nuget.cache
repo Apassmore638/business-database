@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZBv+s4uIpU=",
+  "dgSpecHash": "FQjI9UMruc4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abe\\Desktop\\database site\\DatabaseSite.Services\\DatabaseSite.Services.csproj",
+  "projectFilePath": "C:\\Users\\Abe\\Desktop\\business-database\\DatabaseSite.Services\\DatabaseSite.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abe\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.8\\microsoft.data.sqlite.core.9.0.8.nupkg.sha512",
     "C:\\Users\\Abe\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.8\\microsoft.entityframeworkcore.9.0.8.nupkg.sha512",

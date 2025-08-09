@@ -1,0 +1,94 @@
+@page "/triageitems"
+@using DatabaseSite.Models
+@using DatabaseSite.Services
+@inject ITriageItemService TriageItemService
+
+<h3>Triage Items</h3>
+
+@if (triageItems == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in triageItems)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<button class="btn btn-primary" @onclick="OpenAddTriageItemModal">Add Triage Item</button>
+
+@if (showAddTriageItemModal)
+{
+    <div class="modal fade show d-block" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Triage Item</h5>
+                    <button type="button" class="close" @onclick="CloseAddTriageItemModal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" @bind="newTriageItem.Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <input type="text" class="form-control" id="description" @bind="newTriageItem.Description" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" @onclick="CloseAddTriageItemModal">Close</button>
+                    <button type="button" class="btn btn-primary" @onclick="SaveTriageItem">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop fade show"></div>
+}
+
+@code {
+    private List<TriageItem> triageItems = new List<TriageItem>();
+    private bool showAddTriageItemModal = false;
+    private TriageItem newTriageItem = new TriageItem { Name = "", Description = "" };
+
+    protected override async Task OnInitializedAsync()
+    {
+        triageItems = await TriageItemService.GetTriageItemsAsync();
+    }
+
+    private void OpenAddTriageItemModal()
+    {
+        newTriageItem = new TriageItem { Name = "", Description = "" }; // Clear previous data
+        showAddTriageItemModal = true;
+    }
+
+    private void CloseAddTriageItemModal()
+    {
+        showAddTriageItemModal = false;
+    }
+
+    private async Task SaveTriageItem()
+    {
+        newTriageItem.Id = Guid.NewGuid(); // Generate a new GUID for the ID
+        await TriageItemService.AddTriageItemAsync(newTriageItem);
+        triageItems = await TriageItemService.GetTriageItemsAsync(); // Refresh the list
+        CloseAddTriageItemModal();
+    }
+}
