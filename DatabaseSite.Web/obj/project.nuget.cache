@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JRUJDwpPPJE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abe\\Desktop\\business-database\\DatabaseSite.Web\\DatabaseSite.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abe\\.nuget\\packages\\system.net.http.json\\9.0.8\\system.net.http.json.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lO3KhpAvIk8+N37rvoiZhdNzmU4eVc1xSJk/OVfQ41Q=",
+  "Source": "DatabaseSite.Api",
+  "BasePath": "_content/DatabaseSite.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
